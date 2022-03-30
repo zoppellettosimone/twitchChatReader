@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchChatReader", "TwitchChatReader\TwitchChatReader.csproj", "{5D220DDD-A09E-4737-A906-57C2F3247C5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D220DDD-A09E-4737-A906-57C2F3247C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D220DDD-A09E-4737-A906-57C2F3247C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D220DDD-A09E-4737-A906-57C2F3247C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D220DDD-A09E-4737-A906-57C2F3247C5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5603C27-4199-43E8-A9A8-9820B07CBAB2}
+	EndGlobalSection
+EndGlobal

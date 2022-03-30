@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ReaLTaiizor/3.7.8.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/ReaLTaiizor.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ReaLTaiizor.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ReaLTaiizor/3.7.8.5": {
+      "sha512": "Ii7HHUZifkTgerZ9mbksg2FVCtiG3PgKNZzMy9skdcrzavLfYVbNxBFTodNfnDl+KII9QZ2fxpBmy7quFT44VA==",
+      "type": "package",
+      "path": "realtaiizor/3.7.8.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Taiizor.png",
+        "lib/net40/ReaLTaiizor.dll",
+        "lib/net40/ReaLTaiizor.xml",
+        "lib/net45/ReaLTaiizor.dll",
+        "lib/net45/ReaLTaiizor.xml",
+        "lib/net451/ReaLTaiizor.dll",
+        "lib/net451/ReaLTaiizor.xml",
+        "lib/net452/ReaLTaiizor.dll",
+        "lib/net452/ReaLTaiizor.xml",
+        "lib/net46/ReaLTaiizor.dll",
+        "lib/net46/ReaLTaiizor.xml",
+        "lib/net461/ReaLTaiizor.dll",
+        "lib/net461/ReaLTaiizor.xml",
+        "lib/net462/ReaLTaiizor.dll",
+        "lib/net462/ReaLTaiizor.xml",
+        "lib/net47/ReaLTaiizor.dll",
+        "lib/net47/ReaLTaiizor.xml",
+        "lib/net471/ReaLTaiizor.dll",
+        "lib/net471/ReaLTaiizor.xml",
+        "lib/net472/ReaLTaiizor.dll",
+        "lib/net472/ReaLTaiizor.xml",
+        "lib/net48/ReaLTaiizor.dll",
+        "lib/net48/ReaLTaiizor.xml",
+        "lib/net5.0-windows7.0/ReaLTaiizor.dll",
+        "lib/net5.0-windows7.0/ReaLTaiizor.xml",
+        "lib/net6.0-windows7.0/ReaLTaiizor.dll",
+        "lib/net6.0-windows7.0/ReaLTaiizor.xml",
+        "lib/netcoreapp3.0/ReaLTaiizor.dll",
+        "lib/netcoreapp3.0/ReaLTaiizor.xml",
+        "lib/netcoreapp3.1/ReaLTaiizor.dll",
+        "lib/netcoreapp3.1/ReaLTaiizor.xml",
+        "realtaiizor.3.7.8.5.nupkg.sha512",
+        "realtaiizor.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ReaLTaiizor >= 3.7.8.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\simon\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
+      "projectName": "TwitchChatReader",
+      "projectPath": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
+      "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
+      "outputPath": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "ReaLTaiizor": {
+            "target": "Package",
+            "version": "[3.7.8.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
