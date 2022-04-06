@@ -54,10 +54,9 @@ namespace TwitchChatReader
             this.UserBotton.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.UserBotton.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
             this.UserBotton.ImagePosition = ReaLTaiizor.Controls.ParrotButton.ImgPosition.Left;
-            this.UserBotton.Location = new System.Drawing.Point(352, 16);
-            this.UserBotton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.UserBotton.Location = new System.Drawing.Point(308, 12);
             this.UserBotton.Name = "UserBotton";
-            this.UserBotton.Size = new System.Drawing.Size(91, 47);
+            this.UserBotton.Size = new System.Drawing.Size(80, 35);
             this.UserBotton.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             this.UserBotton.TabIndex = 24;
             this.UserBotton.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(200)))), ((int)(((byte)(185)))));
@@ -70,9 +69,9 @@ namespace TwitchChatReader
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Constantia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(94)))));
-            this.label4.Location = new System.Drawing.Point(91, 223);
+            this.label4.Location = new System.Drawing.Point(80, 167);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(294, 37);
+            this.label4.Size = new System.Drawing.Size(233, 29);
             this.label4.TabIndex = 25;
             this.label4.Text = "Twitch Chat Reader";
             // 
@@ -82,13 +81,12 @@ namespace TwitchChatReader
             this.channelTextBox.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.channelTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(183)))), ((int)(((byte)(191)))));
             this.channelTextBox.Image = null;
-            this.channelTextBox.Location = new System.Drawing.Point(91, 334);
-            this.channelTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.channelTextBox.Location = new System.Drawing.Point(80, 250);
             this.channelTextBox.MaxLength = 32767;
             this.channelTextBox.Multiline = false;
             this.channelTextBox.Name = "channelTextBox";
             this.channelTextBox.ReadOnly = false;
-            this.channelTextBox.Size = new System.Drawing.Size(266, 46);
+            this.channelTextBox.Size = new System.Drawing.Size(233, 41);
             this.channelTextBox.TabIndex = 26;
             this.channelTextBox.TextAlignment = System.Windows.Forms.HorizontalAlignment.Left;
             this.channelTextBox.UseSystemPasswordChar = false;
@@ -98,9 +96,9 @@ namespace TwitchChatReader
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(86)))), ((int)(((byte)(94)))));
-            this.label1.Location = new System.Drawing.Point(91, 301);
+            this.label1.Location = new System.Drawing.Point(80, 226);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 25);
+            this.label1.Size = new System.Drawing.Size(111, 20);
             this.label1.TabIndex = 27;
             this.label1.Text = "Twitch Channel:";
             // 
@@ -119,10 +117,9 @@ namespace TwitchChatReader
             this.sendButton.HoverBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(80)))), ((int)(((byte)(90)))));
             this.sendButton.HoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(215)))));
             this.sendButton.ImagePosition = ReaLTaiizor.Controls.ParrotButton.ImgPosition.Left;
-            this.sendButton.Location = new System.Drawing.Point(175, 431);
-            this.sendButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.sendButton.Location = new System.Drawing.Point(153, 323);
             this.sendButton.Name = "sendButton";
-            this.sendButton.Size = new System.Drawing.Size(98, 47);
+            this.sendButton.Size = new System.Drawing.Size(86, 35);
             this.sendButton.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             this.sendButton.TabIndex = 28;
             this.sendButton.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(200)))), ((int)(((byte)(185)))));
@@ -133,19 +130,20 @@ namespace TwitchChatReader
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(82, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(72, 52);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(293, 123);
+            this.pictureBox1.Size = new System.Drawing.Size(256, 92);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
             // 
             // TwitchForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(44)))), ((int)(((byte)(52)))));
-            this.ClientSize = new System.Drawing.Size(457, 510);
+            this.ClientSize = new System.Drawing.Size(400, 382);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.sendButton);
             this.Controls.Add(this.label1);
@@ -153,7 +151,7 @@ namespace TwitchChatReader
             this.Controls.Add(this.label4);
             this.Controls.Add(this.UserBotton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TwitchForm";
             this.Text = "Twitch Chat Reader";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

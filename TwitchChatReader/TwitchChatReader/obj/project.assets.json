@@ -67,19 +67,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon\\.nuget\\packages\\": {}
+    "C:\\Users\\testuser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
+      "projectUniqueName": "E:\\GitHubRep\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
       "projectName": "TwitchChatReader",
-      "projectPath": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
-      "packagesPath": "C:\\Users\\simon\\.nuget\\packages\\",
-      "outputPath": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\obj\\",
+      "projectPath": "E:\\GitHubRep\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
+      "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHubRep\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -128,7 +128,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

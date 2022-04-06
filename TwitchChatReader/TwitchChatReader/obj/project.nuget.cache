@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OFKUKXboqFPsmE9fzrURxeMrV/wOly4iwDujZR67lREmxLzwxLoetHHyNdb9ti3FskMn9Az9hEjP128EOzR9sA==",
+  "dgSpecHash": "8pkng6nE1cltb25viL+u+gbUKYyNLRkwTS3WbnqiZQl1Y75dcsXwwO6GWAwqfuUihDHCZmi0nsu46a3MJLcguA==",
   "success": true,
-  "projectFilePath": "D:\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
+  "projectFilePath": "E:\\GitHubRep\\twitchChatReader\\TwitchChatReader\\TwitchChatReader\\TwitchChatReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\simon\\.nuget\\packages\\realtaiizor\\3.7.8.5\\realtaiizor.3.7.8.5.nupkg.sha512"
+    "C:\\Users\\testuser\\.nuget\\packages\\realtaiizor\\3.7.8.5\\realtaiizor.3.7.8.5.nupkg.sha512"
   ],
   "logs": []
 }
